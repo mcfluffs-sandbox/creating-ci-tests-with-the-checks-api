@@ -3,7 +3,7 @@ This is an example GitHub App that creates a CI server that runs CI tests using 
 This project handles check run and check suite webhook events and uses the Octokit.rb library to make REST API calls. The CI test runs [RuboCop](https://rubocop.readthedocs.io/en/latest/) on all Ruby code in a repository and reports errors using the Checks API. This example project consists of two different servers:
 * `template_server.rb` (GitHub App template code)
 * `server.rb` (completed project)
-
+test
 To learn how to set up a template GitHub App, follow the "[Setting up your development environment](https://developer.github.com/apps/quickstart-guides/setting-up-your-development-environment/)" quickstart guide on developer.github.com.
 
 ## Install
